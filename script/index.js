@@ -76,8 +76,8 @@ const runComprasion = () => {
     const rightStats = rightSideStats[index];
 
     // Getting the value of both side
-    const leftSideValue = leftStats.dataset.value;
-    const rightSideValue = rightStats.dataset.value;
+    const leftSideValue = parseInt(leftStats.dataset.value);
+    const rightSideValue = parseInt(rightStats.dataset.value);
 
     // Comparing and changing the color
     if (rightSideValue > leftSideValue) {
